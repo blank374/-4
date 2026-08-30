@@ -9,7 +9,7 @@ OBJ = ("distance", "travel_time", "elevation")
 OUT = ("dataset", "query_id", "source", "target", "solution_id", "c1", "c2", "c3")
 Label = tuple[float, float, float]
 
-@dataclass(frozen=True, slots=True)
+@dataclass(frozen=True)
 class Edge:
     dst: int
     cost: Label

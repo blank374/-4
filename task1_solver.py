@@ -23,7 +23,7 @@ OBJECTIVES = ("distance", "travel_time", "elevation", "avg_degree", "hop_count")
 FIELDS = ("distance", "travel_time", "elevation", "avg_degree", "hop_count")
 
 
-@dataclass(frozen=True, slots=True)
+@dataclass(frozen=True)
 class Edge:
     dst: int
     costs: tuple[float, float, float, float, float]
