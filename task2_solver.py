@@ -48,6 +48,24 @@ def scalar_reverse_lb(g: Graph, target: int, component: int) -> dict[int, float]
             if y < d.get(e.dst, math.inf): d[e.dst] = y; heapq.heappush(h, (y, e.dst))
     return d
 
+def scalar_path_vector(g: Graph, source: int, target: int, component: int) -> Label | None:
+    """Return the full 3-vector of one exact component-optimal path."""
+    d = {source: 0.0}; parent = {}; h = [(0.0, source)]
+    while h:
+        x, u = heapq.heappop(h)
+        if x != d.get(u): continue
+        if u == target: break
+        for e in g.adj[u]:
+            y = x + e.cost[component]
+            if y < d.get(e.dst, math.inf):
+                d[e.dst] = y; parent[e.dst] = (u, e); heapq.heappush(h, (y, e.dst))
+    if target not in d: return None
+    total = [0.0, 0.0, 0.0]; u = target
+    while u != source:
+        u, e = parent[u]
+        for j in range(3): total[j] += e.cost[j]
+    return tuple(total)
+
 def insert(labels: list[Label], seen: set[Label], x: Label) -> bool:
     """Insert x iff non-dominated; delete labels strictly dominated by x."""
     if x in seen: return False
@@ -67,6 +85,12 @@ def exact_pareto(g: Graph, source: int, target: int) -> list[Label]:
     # by a target label cannot lead to any new Pareto solution.
     target_labels: list[Label] = []
     target_seen: set[Label] = set()
+    # Seed the incumbent frontier with three exact single-objective paths.
+    # These are valid Pareto candidates and make the lower-bound pruning
+    # effective from the first expansion; they do not remove any solution.
+    for j in range(3):
+        seed = scalar_path_vector(g, source, target, j)
+        if seed is not None: insert(target_labels, target_seen, seed)
     h = [(0.0, 0, source, (0.0, 0.0, 0.0))]
     while h:
         _, _, u, base = heapq.heappop(h)
