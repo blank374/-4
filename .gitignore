@@ -12,6 +12,7 @@
 
 # Compiled binaries and Python caches
 /task2_exact
+/task3_solver
 *.exe
 *.o
 *.obj

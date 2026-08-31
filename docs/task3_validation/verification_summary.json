@@ -1,0 +1,15 @@
+{
+  "experiment_date": "2026-08-31",
+  "solver_source_sha256": "896cbc8f8a9cb9577ff53b90871ac4bd0c376d4434ca4218936ee1325783eb68",
+  "exhaustive_and_budget_checks": 1444,
+  "indicator_checks": 1000,
+  "audited_runs": 441,
+  "audited_path_records": 21484,
+  "official_query_dimension_groups": 270,
+  "certified_groups": 221,
+  "uncertified_groups": 49,
+  "export_paths": 20287,
+  "export_bytes": 134659375,
+  "export_sha256": "c2466517bdcc50b4b7f8f7735361095ee9947a974cda68bf7b884b2aea3ca3d0",
+  "comparison_sha256": "ecdbae5400e8cdd3d9192bd06964c40a0095a93ba593429d07a6323efe47ef62"
+}

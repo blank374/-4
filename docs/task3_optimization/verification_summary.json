@@ -1,0 +1,18 @@
+{
+  "random_graphs_per_order": 200,
+  "layered_graphs_per_order": 18,
+  "orders": [
+    "21345",
+    "31245"
+  ],
+  "search_and_limit_checks_per_order": 2024,
+  "indicator_checks_per_order": 1000,
+  "sanitizer_search_checks": 580,
+  "sanitizer_indicator_checks": 1000,
+  "official_certified_groups": 270,
+  "exact_2d_matches": 90,
+  "export_path_records": 20669,
+  "export_sha256": "721351c618ee004ff57ea1763124c2e72d2bd6e45d16a7355b68cd29468dcf08",
+  "export_bytes": 136091068,
+  "current_source_sha256": "bd736f8785d38810dc989328178c58dd664d5d7f30d2de08742f1c6aa1be16ca"
+}

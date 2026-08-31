@@ -1,0 +1,2 @@
+# Keep Linux experiment entrypoints runnable after a Windows checkout.
+*.sh text eol=lf

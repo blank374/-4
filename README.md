@@ -1,6 +1,6 @@
 # 城市道路网络多目标路径规划
 
-任务一、二的正式求解与验证代码。任务三、四尚未实现，不包含在本仓库的完成范围内。
+任务一、二的正式求解与验证代码，以及任务三的精确/近似路径集求解、质量比较与验证。任务四尚未实现。
 
 任务二已完整求解 NY、BAY、COL 各30组查询，共 **90组、3,023,770条 Pareto 目标向量记录**。正式求解器是 `task2_exact.cpp`；旧的 KD 树、双向搜索和分区实验不再作为运行入口。
 
@@ -14,11 +14,15 @@
 | `verify_task2_exact.py` | 独立穷举与 CLI 集成测试 |
 | `verify_task2_results.py` | 90组最终结果文件核验 |
 | `run_task2_server.py` | Linux 多进程批量求解与自动核验 |
+| `task3_solver.cpp` | 任务三：2/3/5维搜索、完整路径与ε覆盖认证 |
+| `run_task3.py` / `run_task3_batch.sh` | 任务三固定查询实验、断点与汇总 |
+| `run_task3_optimized.sh` / `assemble_task3_certified.py` | 标签合并优化、未认证组换序重试、认证答案汇集 |
+| `verify_task3_solver.py` / `verify_task3_results.py` | 穷举验证、路径核验与质量比较 |
 | `data/` | 原始图、合并边表、固定查询和关闭边表 |
 | `examples/` | 题目规定的四种结果格式示例 |
 | `docs/` | 模型说明、运行方法及验证记录 |
 
-生成结果放在 `results_task1/` 或 `results_task2_exact/`，不纳入 Git。旧方法、临时实验和含实际服务器信息的历史说明归档在本机 `_local_archive/`，同样不上传。
+生成结果放在 `results_task1/`、`results_task2_exact/` 或 `results_task3/`，不纳入 Git。旧方法、临时实验和含实际服务器信息的历史说明归档在本机 `_local_archive/`，同样不上传。
 
 ## 环境
 
@@ -65,7 +69,22 @@ Windows 将 `./task2_exact` 换成 `.\task2_exact.exe`。内部目标顺序不�
 
 算法与正确性说明见 [任务二说明](docs/task2.md)。并行计算见 [Linux批量运行](docs/server.md)。
 
-## 结果与验证
+## 任务三
+
+最新结果：**270/270组合均取得保证**，共20,669条路径。二维90组为完整精确前沿；三维、五维各90组为ε=0.20覆盖。默认排序完成269组，最后1组换内部排序完成，没有放宽精度。最终文件为 `results_task3_certified/result3_研XXX.csv`，旧版实验保留。
+
+```powershell
+.\build_task3.ps1
+python verify_task3_solver.py
+python run_task3.py --query-ids 0001 --algorithm apex --baseline --exact-2d --output-dir results_task3_apex_pilot
+python verify_task3_results.py results_task3_apex_pilot
+```
+
+Linux新版完整流程使用 `TASK3_WORKERS=16 bash run_task3_optimized.sh`。使用任务三专用固定查询表，输出所有五项成本和完整路径；触顶仍只返回未认证候选，汇集脚本只接受取得证书的结果。
+
+详见 [最新优化与复现说明](docs/task3_optimization.md)、[基线模型](docs/task3.md) 与 [初版实验记录](docs/task3_validation.md)。
+
+## 任务二结果与验证
 
 全部90组完成后，正式文件为 `results_task2_exact/result2_研XXX.csv`；只完成部分查询时，程序只生成 `.partial.csv`，不能作为全题答案。
 
