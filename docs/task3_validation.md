@@ -77,4 +77,4 @@ c2466517bdcc50b4b7f8f7735361095ee9947a974cda68bf7b884b2aea3ca3d0
 
 建议保留二维精确结果和已获证书的近似结果，针对 [未认证查询清单](task3_validation/limited_queries.csv) 优化初始解、四维支配检查或引入A*pex可认证合并。不要只增加标签上限就预设一定解决，也不要默默增大ε。
 
-仓库只保留小体积统计和 [汇总元数据](task3_validation/aggregation.json)，完整CSV、路径断点、二进制、服务器日志均被Git忽略。旧任务一、二的正式结果未改动。
+仓库保留统计和 [汇总元数据](task3_validation/aggregation.json)，并已放出用于论文对照的初版路径断点及报告；最终正式CSV与认证断点使用Git LFS。初版未完成CSV、二进制和服务器日志仍忽略，详见 [论文与复核资料](research_artifacts.md)。旧任务一、二答案内容未改动。

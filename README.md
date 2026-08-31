@@ -26,13 +26,14 @@
 | `examples/` | 题目规定的四种结果格式示例 |
 | `docs/` | 模型说明、运行方法及验证记录 |
 
-生成结果放在 `results_task1/`、`results_task2_exact/`、`results_task3_certified/` 或 `results_task4/` 等目录，不纳入 Git。旧方法、临时实验和含实际服务器信息的历史说明归档在本机 `_local_archive/`，同样不上传。
+正式答案、认证断点、来源清单、验证报告及论文所需的任务三优化前后对照已从忽略规则中放出；大型CSV和任务三原始路径JSON使用Git LFS。详见 [论文与复核资料](docs/research_artifacts.md) 和 [逐文件哈希清单](docs/research_artifacts.json)。旧方法归档、临时实验、日志、二进制和含服务器连接信息的历史文件继续忽略。
 
 ## 环境
 
 - Python 3.10 或更高版本，仅使用标准库。
 - 支持 C++17 的 GCC；Windows 使用 MinGW-w64 g++，Linux 使用 g++。
 - Windows 编译依赖系统 `psapi`、`shell32` 库。
+- 下载完整答案和原始路径需安装Git LFS；克隆后执行 `git lfs pull`，再用 `python verify_research_artifacts.py` 检查文件完整性。
 
 原始数据和题目附件保留原样。运行正式数据实验需要完整的 `data/edges/` 与各城市查询表；内置随机测试和 CLI 构造图测试不依赖大图数据。
 
@@ -119,7 +120,7 @@ python verify_task2_results.py results_task2_exact
 | COL | 30 | 826,856 |
 | 合计 | **90** | **3,023,770** |
 
-完整结果CSV约144MB，不随源码提交。仓库保留小体积的 [验证记录](docs/validation.md)、[逐查询核验报告](docs/validation/verification_report.json) 和 [运行统计](docs/validation/task2_status.csv)。
+完整结果CSV约144MB，已配置Git LFS；90个精确断点和核验所需状态表也纳入保留范围。另有便于阅读的 [验证记录](docs/validation.md)、[逐查询核验报告](docs/validation/verification_report.json) 和 [运行统计](docs/validation/task2_status.csv)。
 
 `XXX` 为队号占位符。题目附件和原始数据保持来源不变，本仓库没有为这些附件额外授予转载许可。
 
@@ -130,4 +131,4 @@ git status --short
 git diff --check
 ```
 
-只提交正式源码、文档、题目及所需数据，不要强制添加被忽略的归档、EXE、运行日志、断点或完整结果CSV。此次整理不改写已有 Git 历史。
+提交正式源码、文档、题目、所需输入及白名单内的答案和复核资料；大文件必须连同 `.gitattributes` 使用Git LFS。不要强制添加仍被忽略的归档、EXE、日志、临时断点或 `.partial.csv`。此次整理不自动提交、推送或改写已有Git历史。

@@ -91,7 +91,7 @@ def write_report(out, summary, rows, verification):
         lines.append(f"| {ds} | {d['decision_seconds']['median']:.3f} | {d['graph_load_seconds']['median']:.3f} | {d['cpp_total_seconds']['median']:.3f} | {min(a):.3f}–{max(a):.3f} | {min(b):.3f}–{max(b):.3f} |")
     lines += ["", "A*耗时不包含反向预处理，不能把毫秒级A*时间当作从零开始的全部重规划时间。C++合计包含图加载、四次标量边权计算、反向预处理及重规划；候选决策另含读取候选、去支配、筛选及敏感性选择。COL候选较多，决策时间较长。并发下各任务存在资源竞争，单次实验的时间不代表任意路网的性能保证。", "",
         "## 可复核材料", "",
-        "`verification_report.json`、`analysis_summary.json`、`comparison.csv`、`sensitivity.csv`、`sensitivity_groups.csv` 保留完整逐组记录。完整路径CSV和断点位于被Git忽略的结果目录；仓库只保留这些体积较小的核验和统计副本。原问题二、三结果保持不变。", ""]
+        "`verification_report.json`、`analysis_summary.json`、`comparison.csv`、`sensitivity.csv`、`sensitivity_groups.csv` 保留完整逐组记录。已交付的正式CSV、断点及分析材料已从Git忽略规则中放出，范围见仓库的 `docs/research_artifacts.md`；新复现实验目录仍默认忽略。原问题二、三答案内容保持不变。", ""]
     (out/"analysis.md").write_text("\n".join(lines), encoding="utf-8")
 
 

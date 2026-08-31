@@ -1,2 +1,19 @@
 # Keep Linux experiment entrypoints runnable after a Windows checkout.
 *.sh text eol=lf
+
+# Preserve exact bytes: verification manifests contain SHA256 fingerprints.
+/results_task1/** -text
+/results_task2_exact/** -text
+/results_task3/** -text
+/results_task3_optimized/** -text
+/results_task3_order31245_server/** -text
+/results_task3_certified/** -text
+/results_task4/** -text
+
+# Large formal CSVs and raw task-3 paths use Git LFS, not normal Git blobs.
+/results_task2_exact/result2_*.csv filter=lfs diff=lfs merge=lfs -text
+/results_task3_certified/result3_*.csv filter=lfs diff=lfs merge=lfs -text
+/results_task3/checkpoints/*.json filter=lfs diff=lfs merge=lfs -text
+/results_task3_optimized/checkpoints/*.json filter=lfs diff=lfs merge=lfs -text
+/results_task3_order31245_server/checkpoints/*.json filter=lfs diff=lfs merge=lfs -text
+/results_task3_certified/checkpoints/*.json filter=lfs diff=lfs merge=lfs -text

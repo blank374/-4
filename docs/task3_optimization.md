@@ -97,4 +97,4 @@ TASK3_WORKERS=16 bash run_task3_optimized.sh
 python verify_task3_results.py results_task3_certified --paths-only
 ```
 
-统计摘要见 [optimization_report.json](task3_optimization/optimization_report.json)，最终汇总信息见 [aggregation.json](task3_optimization/aggregation.json)。完整CSV约136MB、断点、EXE和日志不上传Git；仓库仅保留源码及小体积验证资料。
+统计摘要见 [optimization_report.json](task3_optimization/optimization_report.json)，最终汇总信息见 [aggregation.json](task3_optimization/aggregation.json)。完整CSV约136MB，最终断点及优化前后原始实验断点均已配置Git LFS，供论文复核；EXE、日志与重复临时输出继续忽略。详见 [论文与复核资料](research_artifacts.md)。

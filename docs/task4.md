@@ -92,7 +92,7 @@ W_A\ge W^*_0,\quad W^*_D\ge W^*_0,
 
 ## 验证、复现与输出
 
-首先需要 `results_task3_certified/` 的270组已认证断点和 `selection.json`。任务三复现输出目录可通过下述 `TASK3_FINAL` 指定。断点不随源码提交，需要先完成任务三或从已保存的结果取得。
+首先需要 `results_task3_certified/` 的270组已认证断点和 `selection.json`。这些资料已从忽略规则中放出，原始路径JSON配置为Git LFS；克隆后先执行 `git lfs pull`。也可以重新完成任务三，复现输出目录通过下述 `TASK3_FINAL` 指定。见 [论文与复核资料](research_artifacts.md)。
 
 Windows：
 

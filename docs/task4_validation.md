@@ -115,4 +115,4 @@ A*耗时不包含反向预处理，不能把毫秒级A*时间当作从零开始�
 
 ## 可复核材料
 
-[独立核验报告](task4_validation/verification_report.json)、[统计汇总](task4_validation/analysis_summary.json)、[逐方案成本比较](task4_validation/comparison.csv)、[权重扫描](task4_validation/sensitivity.csv)、[切换统计](task4_validation/sensitivity_groups.csv) 保留完整逐组记录。完整路径CSV和断点位于被Git忽略的结果目录；仓库只保留这些体积较小的核验和统计副本。原问题二、三结果保持不变。
+[独立核验报告](task4_validation/verification_report.json)、[统计汇总](task4_validation/analysis_summary.json)、[逐方案成本比较](task4_validation/comparison.csv)、[权重扫描](task4_validation/sensitivity.csv)、[切换统计](task4_validation/sensitivity_groups.csv) 保留完整逐组记录。正式CSV、90个断点及这些分析材料已从忽略规则中放出，见 [论文与复核资料](research_artifacts.md)。原问题二、三答案内容保持不变。

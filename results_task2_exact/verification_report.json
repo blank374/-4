@@ -1,0 +1,999 @@
+{
+  "queries": 90,
+  "rows": 3023770,
+  "formal_csv": "result2_研XXX.csv",
+  "csv_sha256": "8a167153f3bb793f27159de610fab8fd2c7e924c96eafda659c37486f59e79ad",
+  "all_checks_passed": true,
+  "groups": [
+    {
+      "dataset": "BAY",
+      "query_id": "0001",
+      "solutions": 20128,
+      "sha256": "950740ccb9daa83fcd035f50702ae29cd170a7032e37aa6a1b9a18717b65c3aa",
+      "objective_minima": [
+        1172015,
+        1554403,
+        1435
+      ]
+    },
+    {
+      "dataset": "BAY",
+      "query_id": "0002",
+      "solutions": 17877,
+      "sha256": "ea8bdc655bbd5d7ad64a9352240025e3024d1859f3f719412e6c71df89e978cb",
+      "objective_minima": [
+        1170595,
+        1550853,
+        1436
+      ]
+    },
+    {
+      "dataset": "BAY",
+      "query_id": "0003",
+      "solutions": 18805,
+      "sha256": "1341c7d6386889560a58ccf2b25df443309ca24f1cd90119fe676c36ef43d829",
+      "objective_minima": [
+        1169999,
+        1549356,
+        1437
+      ]
+    },
+    {
+      "dataset": "BAY",
+      "query_id": "0004",
+      "solutions": 18805,
+      "sha256": "934260c9f5b229ed7f6092f63f4cc2430b3d42d981d3fc940505d48c77c14ff1",
+      "objective_minima": [
+        1170976,
+        1551800,
+        1438
+      ]
+    },
+    {
+      "dataset": "BAY",
+      "query_id": "0005",
+      "solutions": 16076,
+      "sha256": "979161315025963eaf0976521dafd989aec9994b7a48376610032ec034ec42cb",
+      "objective_minima": [
+        1164324,
+        1535171,
+        1440
+      ]
+    },
+    {
+      "dataset": "BAY",
+      "query_id": "0006",
+      "solutions": 16200,
+      "sha256": "a5c87f1bab34618c0e5dc0fcb8efc2721fc1338dccd34c30e7bc0435a178ec7a",
+      "objective_minima": [
+        1165486,
+        1538078,
+        1443
+      ]
+    },
+    {
+      "dataset": "BAY",
+      "query_id": "0007",
+      "solutions": 16866,
+      "sha256": "50b994b177c2be1e6b31cb4051e6b0064672d57431e81e55631dc6efce950ba6",
+      "objective_minima": [
+        1166869,
+        1541534,
+        1442
+      ]
+    },
+    {
+      "dataset": "BAY",
+      "query_id": "0008",
+      "solutions": 18805,
+      "sha256": "580920e1871e406985706955e34b5dde05fb07858be85475a69dfd52d406954e",
+      "objective_minima": [
+        1168506,
+        1545625,
+        1437
+      ]
+    },
+    {
+      "dataset": "BAY",
+      "query_id": "0009",
+      "solutions": 17624,
+      "sha256": "1685e47833b58a85930957d6a6e30d2e0de8035dfbb21624f0fc5e3629f491bb",
+      "objective_minima": [
+        1166072,
+        1539541,
+        1440
+      ]
+    },
+    {
+      "dataset": "BAY",
+      "query_id": "0010",
+      "solutions": 17371,
+      "sha256": "2cfcada6469c088303b2827795ebc5de983816b21b3792807de85c13c9a929be",
+      "objective_minima": [
+        1168323,
+        1545168,
+        1439
+      ]
+    },
+    {
+      "dataset": "BAY",
+      "query_id": "0011",
+      "solutions": 17877,
+      "sha256": "1e48644b8308ebbd7d8a9b57d427bcbf40f21cfb87d546b0974d6adcdfc269e2",
+      "objective_minima": [
+        1171035,
+        1551952,
+        1437
+      ]
+    },
+    {
+      "dataset": "BAY",
+      "query_id": "0012",
+      "solutions": 18805,
+      "sha256": "8a56b42506159d33ac728d6379efd2eb1070dcd300f374fe6229dcc39907a597",
+      "objective_minima": [
+        1171230,
+        1552434,
+        1441
+      ]
+    },
+    {
+      "dataset": "BAY",
+      "query_id": "0013",
+      "solutions": 15701,
+      "sha256": "5efe9675f29ee856e9e860fe1e76d515ac985b90348b85c02b066a503ebbe55a",
+      "objective_minima": [
+        1162762,
+        1531266,
+        1441
+      ]
+    },
+    {
+      "dataset": "BAY",
+      "query_id": "0014",
+      "solutions": 17535,
+      "sha256": "0f6d10a1391e75e886ea5abc9e29a478ebf9aec7160555cdcffb6e9672ffba6a",
+      "objective_minima": [
+        1171441,
+        1549624,
+        1437
+      ]
+    },
+    {
+      "dataset": "BAY",
+      "query_id": "0015",
+      "solutions": 18805,
+      "sha256": "6761eed08bd2cd5634959891e81d8e8d9c61a6f34fe6ec63a6fbe3e6a4c9a25f",
+      "objective_minima": [
+        1171609,
+        1553383,
+        1441
+      ]
+    },
+    {
+      "dataset": "BAY",
+      "query_id": "0016",
+      "solutions": 16334,
+      "sha256": "c2e512311af2bb3d1232393aa3228eb496070ec07de6395c26ea4217ccda6ae8",
+      "objective_minima": [
+        1166196,
+        1539853,
+        1443
+      ]
+    },
+    {
+      "dataset": "BAY",
+      "query_id": "0017",
+      "solutions": 17746,
+      "sha256": "22e0d74f37d089eaab4fcdb9c3fb057a78d1c69cf08f8449ecf2c09a4d115ca1",
+      "objective_minima": [
+        1166924,
+        1541671,
+        1439
+      ]
+    },
+    {
+      "dataset": "BAY",
+      "query_id": "0018",
+      "solutions": 18993,
+      "sha256": "0324dbd99c897d44fee98c50c1737f0b77b2c7ec680fa7d7433a96fd839fd250",
+      "objective_minima": [
+        1170684,
+        1550794,
+        1436
+      ]
+    },
+    {
+      "dataset": "BAY",
+      "query_id": "0019",
+      "solutions": 17246,
+      "sha256": "76f0dcd843518fb0d9dc2c00db23cde9ccbceb60c3d1f475e99d8bb75f5ce4c0",
+      "objective_minima": [
+        1166504,
+        1540621,
+        1439
+      ]
+    },
+    {
+      "dataset": "BAY",
+      "query_id": "0020",
+      "solutions": 17854,
+      "sha256": "f9bd8996073bc29e4c97bb1be2f6043f952f43dc334fb783b01835a2d710cae0",
+      "objective_minima": [
+        1167634,
+        1543446,
+        1439
+      ]
+    },
+    {
+      "dataset": "BAY",
+      "query_id": "0021",
+      "solutions": 18993,
+      "sha256": "e12b640e9ae33b01c721e04455f0f67d3240a741a8ce89dafaf3d6e73d850ba4",
+      "objective_minima": [
+        1169191,
+        1547063,
+        1436
+      ]
+    },
+    {
+      "dataset": "BAY",
+      "query_id": "0022",
+      "solutions": 19092,
+      "sha256": "ff31cb02b2a59e6452a3a5e83449c245fd76b2fffb4ce86338f4f12c77ab8fcc",
+      "objective_minima": [
+        1165690,
+        1538586,
+        1439
+      ]
+    },
+    {
+      "dataset": "BAY",
+      "query_id": "0023",
+      "solutions": 18805,
+      "sha256": "efe8280efe1e7d9e39e94cb613b2e68d0a3dcbc9d072386d949e375ed15fd130",
+      "objective_minima": [
+        1171225,
+        1552424,
+        1441
+      ]
+    },
+    {
+      "dataset": "BAY",
+      "query_id": "0024",
+      "solutions": 22657,
+      "sha256": "9feade7c62a1aee4de29ca4a74e412645d1f26fdab83d0d1e5ce480b4ae636cd",
+      "objective_minima": [
+        1172655,
+        1555723,
+        1432
+      ]
+    },
+    {
+      "dataset": "BAY",
+      "query_id": "0025",
+      "solutions": 21250,
+      "sha256": "d51e95ba0f5ae819bbeb1ca8b1d0f835cf7921d9e847e954238a178cf9163cad",
+      "objective_minima": [
+        1174905,
+        1558284,
+        1433
+      ]
+    },
+    {
+      "dataset": "BAY",
+      "query_id": "0026",
+      "solutions": 20364,
+      "sha256": "11b0b87825849d7b8c0e510cfae89ef2329abb4c9ad7aecd41fba9b12d9333be",
+      "objective_minima": [
+        1168580,
+        1545811,
+        1438
+      ]
+    },
+    {
+      "dataset": "BAY",
+      "query_id": "0027",
+      "solutions": 18805,
+      "sha256": "94b486535d9a44011ea48211bfcff84143325784ade6e35d9bc91e316b0794f9",
+      "objective_minima": [
+        1169615,
+        1548397,
+        1437
+      ]
+    },
+    {
+      "dataset": "BAY",
+      "query_id": "0028",
+      "solutions": 18805,
+      "sha256": "69b03eb6bee5d6f16d3cd785fcd045b001af24cf8646db0791215d80e04935de",
+      "objective_minima": [
+        1171360,
+        1552759,
+        1438
+      ]
+    },
+    {
+      "dataset": "BAY",
+      "query_id": "0029",
+      "solutions": 19568,
+      "sha256": "52cee76b6297528ddd6f58a25148d7b96068c519dfa6a99d6ad1c3f26c8ad5b9",
+      "objective_minima": [
+        1168634,
+        1545946,
+        1438
+      ]
+    },
+    {
+      "dataset": "BAY",
+      "query_id": "0030",
+      "solutions": 23021,
+      "sha256": "492d4ffcbae3a60bfef8f98ff80af87e1c987231049f341268144f3322f6bdc8",
+      "objective_minima": [
+        1173797,
+        1558857,
+        1437
+      ]
+    },
+    {
+      "dataset": "COL",
+      "query_id": "0001",
+      "solutions": 26816,
+      "sha256": "9db54f7e48ebd947e65327775c6e1e9ccbf4bace1d1e6ebc5636ad0b957312b5",
+      "objective_minima": [
+        3030507,
+        3811889,
+        2328
+      ]
+    },
+    {
+      "dataset": "COL",
+      "query_id": "0002",
+      "solutions": 26816,
+      "sha256": "cc9ff31e5576931f140bd34ccaf0900b15d44f4b597cdb618506dee38ccb9771",
+      "objective_minima": [
+        3028307,
+        3806389,
+        2323
+      ]
+    },
+    {
+      "dataset": "COL",
+      "query_id": "0003",
+      "solutions": 26816,
+      "sha256": "86c4bbf5cda46e7d46507335437a20b072df77b597fe5386896f46e34a67b63d",
+      "objective_minima": [
+        3027932,
+        3805449,
+        2323
+      ]
+    },
+    {
+      "dataset": "COL",
+      "query_id": "0004",
+      "solutions": 26816,
+      "sha256": "11ed8ea2318eee906eb780123747a62ca71086e5b88f6ab8b99d05177ef35253",
+      "objective_minima": [
+        3029501,
+        3809376,
+        2329
+      ]
+    },
+    {
+      "dataset": "COL",
+      "query_id": "0005",
+      "solutions": 26761,
+      "sha256": "3a543881f95e0b716df9a5d2ca22e6c4a0916b3f90052681750a8c94fa667f71",
+      "objective_minima": [
+        3036804,
+        3831462,
+        2328
+      ]
+    },
+    {
+      "dataset": "COL",
+      "query_id": "0006",
+      "solutions": 26846,
+      "sha256": "9d9feee6439f6f813b1b244334b34fff93468d662e6ce6cb1c86dab3e2fd5a1d",
+      "objective_minima": [
+        3032445,
+        3812951,
+        2326
+      ]
+    },
+    {
+      "dataset": "COL",
+      "query_id": "0007",
+      "solutions": 26625,
+      "sha256": "fd1e7c20b9857d87335bf6c701637011bd7355067d061fbea190d1f1541bfa75",
+      "objective_minima": [
+        3012664,
+        3790746,
+        2324
+      ]
+    },
+    {
+      "dataset": "COL",
+      "query_id": "0008",
+      "solutions": 26816,
+      "sha256": "ce55dd64be8591e2b7f48f5db6eeacd34827cedc974f3d2f9b529014f5281c40",
+      "objective_minima": [
+        3029373,
+        3809053,
+        2326
+      ]
+    },
+    {
+      "dataset": "COL",
+      "query_id": "0009",
+      "solutions": 26761,
+      "sha256": "78a93d83bdd17e64ffc5db4c431c8345928f8ceb38cde64ca0dd959033f34c4d",
+      "objective_minima": [
+        3024793,
+        3801434,
+        2322
+      ]
+    },
+    {
+      "dataset": "COL",
+      "query_id": "0010",
+      "solutions": 26816,
+      "sha256": "73ed3f4afe14f9ede54392f3f493c26016b69b9bdf05fb995012d20e5c2bba8e",
+      "objective_minima": [
+        3030635,
+        3812212,
+        2331
+      ]
+    },
+    {
+      "dataset": "COL",
+      "query_id": "0011",
+      "solutions": 34947,
+      "sha256": "35ec54d123a4e054dc783dd17ad3d0fa699cd783fccaf600e6173a8c882d4817",
+      "objective_minima": [
+        3050913,
+        3832256,
+        2281
+      ]
+    },
+    {
+      "dataset": "COL",
+      "query_id": "0012",
+      "solutions": 26816,
+      "sha256": "013b81eb72d63a6b37f1c3a711dcf3d12040cf80427bed0b18f9e829141c71a7",
+      "objective_minima": [
+        3028060,
+        3805772,
+        2326
+      ]
+    },
+    {
+      "dataset": "COL",
+      "query_id": "0013",
+      "solutions": 27525,
+      "sha256": "2603818bc7bbc5dffdee4cd200fe740ff68717da7179cb5a112200bb719fa8ee",
+      "objective_minima": [
+        3035112,
+        3823401,
+        2325
+      ]
+    },
+    {
+      "dataset": "COL",
+      "query_id": "0014",
+      "solutions": 26846,
+      "sha256": "6160ffeb0b4cdfc53af177f2a263da6d00d8afd9538f8c9bf0d449c1b9aa06e0",
+      "objective_minima": [
+        3041881,
+        3836539,
+        2327
+      ]
+    },
+    {
+      "dataset": "COL",
+      "query_id": "0015",
+      "solutions": 26846,
+      "sha256": "528f5d03df9c6bfd2cd687bdaf755fa419fb4074976d9b58413322e0d92430f3",
+      "objective_minima": [
+        3031311,
+        3810115,
+        2324
+      ]
+    },
+    {
+      "dataset": "COL",
+      "query_id": "0016",
+      "solutions": 28551,
+      "sha256": "8d2b7f180e6ef93c550d8ba019dc75dcbd4d6979a799ac3e0796ef6990800813",
+      "objective_minima": [
+        3045304,
+        3848882,
+        2330
+      ]
+    },
+    {
+      "dataset": "COL",
+      "query_id": "0017",
+      "solutions": 27525,
+      "sha256": "fa2b694d02af9203ae90955d25ff66d3d39faa8f212d05924ca79d83c02cef0b",
+      "objective_minima": [
+        3036072,
+        3825802,
+        2327
+      ]
+    },
+    {
+      "dataset": "COL",
+      "query_id": "0018",
+      "solutions": 26761,
+      "sha256": "221a6a12f95105f49e17db7501bd1fbbe9adf531c1e53d8d752a9fc628e4b107",
+      "objective_minima": [
+        3026354,
+        3805339,
+        2327
+      ]
+    },
+    {
+      "dataset": "COL",
+      "query_id": "0019",
+      "solutions": 26816,
+      "sha256": "de41918efc1d64713ac48f671f388a8a136097c605ad849193f5e0e3b2fce399",
+      "objective_minima": [
+        3039943,
+        3835477,
+        2329
+      ]
+    },
+    {
+      "dataset": "COL",
+      "query_id": "0020",
+      "solutions": 29796,
+      "sha256": "2d8e02ad1bef23a49e0416dea4db3db2ca3d55e8f8832342a7ac7b76dd1d70fb",
+      "objective_minima": [
+        3042066,
+        3840786,
+        2320
+      ]
+    },
+    {
+      "dataset": "COL",
+      "query_id": "0021",
+      "solutions": 26816,
+      "sha256": "416e87f6779b5d1097236e7c46a3fc03c556b1c46745b884d8cd2f7e7fbaf6d0",
+      "objective_minima": [
+        3029020,
+        3808173,
+        2328
+      ]
+    },
+    {
+      "dataset": "COL",
+      "query_id": "0022",
+      "solutions": 26625,
+      "sha256": "d10852f6787ea80275abb11a24c7dd5633cd4e4929c299f59600ddc98933e9d6",
+      "objective_minima": [
+        3013265,
+        3792250,
+        2327
+      ]
+    },
+    {
+      "dataset": "COL",
+      "query_id": "0023",
+      "solutions": 26625,
+      "sha256": "ed1fa79f981882842aeab4eae140bc24e1b3a48278294aa8a889d789ff143851",
+      "objective_minima": [
+        3013145,
+        3791949,
+        2325
+      ]
+    },
+    {
+      "dataset": "COL",
+      "query_id": "0024",
+      "solutions": 34947,
+      "sha256": "92b5bdf04236515d15f0580289e05b08b8170077a3dd2203057bffe7d08b7d94",
+      "objective_minima": [
+        3060349,
+        3855844,
+        2282
+      ]
+    },
+    {
+      "dataset": "COL",
+      "query_id": "0025",
+      "solutions": 26761,
+      "sha256": "28f476877326576d4aba493a7203f97dc2ece9b05dfecd56705b60a647edd970",
+      "objective_minima": [
+        3025753,
+        3803835,
+        2324
+      ]
+    },
+    {
+      "dataset": "COL",
+      "query_id": "0026",
+      "solutions": 26761,
+      "sha256": "050daf10c6f779a7979f6683a6a04219b676b458aa991b30d6d4e4efb6b397e6",
+      "objective_minima": [
+        3026234,
+        3805038,
+        2325
+      ]
+    },
+    {
+      "dataset": "COL",
+      "query_id": "0027",
+      "solutions": 26816,
+      "sha256": "cdf919d932027bb0a670d422d126a3383539ff30f8f4c44574531042c4e5462c",
+      "objective_minima": [
+        3039358,
+        3834016,
+        2327
+      ]
+    },
+    {
+      "dataset": "COL",
+      "query_id": "0028",
+      "solutions": 26846,
+      "sha256": "4beab01a5cda73cfb10997045bc655b69b1fa1bfa984b077bae881ac765a64b3",
+      "objective_minima": [
+        3030830,
+        3808912,
+        2323
+      ]
+    },
+    {
+      "dataset": "COL",
+      "query_id": "0029",
+      "solutions": 27525,
+      "sha256": "ed65bf992cee07459967e48db0937b5dff3307003522e8045ee992a2fc863d77",
+      "objective_minima": [
+        3037687,
+        3829841,
+        2330
+      ]
+    },
+    {
+      "dataset": "COL",
+      "query_id": "0030",
+      "solutions": 26816,
+      "sha256": "053b4a041ee643d46d4b2c486e23277ef7bfd1918400d404f99169798799424a",
+      "objective_minima": [
+        3029922,
+        3810428,
+        2326
+      ]
+    },
+    {
+      "dataset": "NY",
+      "query_id": "0001",
+      "solutions": 53926,
+      "sha256": "7686bddc16cf5445e11ab0bed6957cffc7b97f8462ad2728276f7aaf69cedb40",
+      "objective_minima": [
+        479178,
+        688012,
+        618
+      ]
+    },
+    {
+      "dataset": "NY",
+      "query_id": "0002",
+      "solutions": 53917,
+      "sha256": "c4e84cbacaf42cae441c6d0f35dd3442173890ab42218ce863711508f3981957",
+      "objective_minima": [
+        481078,
+        692761,
+        618
+      ]
+    },
+    {
+      "dataset": "NY",
+      "query_id": "0003",
+      "solutions": 57526,
+      "sha256": "e3bd8f93a5f332487f0382b976f7d24e7f7411a950397a40504d815c83699845",
+      "objective_minima": [
+        482425,
+        696130,
+        617
+      ]
+    },
+    {
+      "dataset": "NY",
+      "query_id": "0004",
+      "solutions": 53926,
+      "sha256": "3ff495597c28da430b562583b06bf21e131cc35f14116ad9c2b8f8e939af028b",
+      "objective_minima": [
+        481402,
+        693572,
+        619
+      ]
+    },
+    {
+      "dataset": "NY",
+      "query_id": "0005",
+      "solutions": 53926,
+      "sha256": "56764d3dad209b44a8b21017d99cdcb484dd31c2b479cbba65e3b2cf70af3be9",
+      "objective_minima": [
+        481478,
+        693762,
+        620
+      ]
+    },
+    {
+      "dataset": "NY",
+      "query_id": "0006",
+      "solutions": 53926,
+      "sha256": "68e6fe171863f97cd0f8800684fe234dd11846923fcdc830d5146981948aa8d1",
+      "objective_minima": [
+        479045,
+        687679,
+        618
+      ]
+    },
+    {
+      "dataset": "NY",
+      "query_id": "0007",
+      "solutions": 53926,
+      "sha256": "2115682721a9a0c98489d31bdeed91f7c9342bc2e814bfe3b8268d2ac675caea",
+      "objective_minima": [
+        480058,
+        690212,
+        618
+      ]
+    },
+    {
+      "dataset": "NY",
+      "query_id": "0008",
+      "solutions": 53926,
+      "sha256": "52a691e19669b03d6bb38ba9533be4e95090625c41c775c30d4da58c3d506915",
+      "objective_minima": [
+        480134,
+        690402,
+        619
+      ]
+    },
+    {
+      "dataset": "NY",
+      "query_id": "0009",
+      "solutions": 53926,
+      "sha256": "0d1c404e4edee3e07da2dfadc2e9d9c9cc0e79fe856b5600cd52c1e7dbcf7a33",
+      "objective_minima": [
+        477701,
+        684319,
+        617
+      ]
+    },
+    {
+      "dataset": "NY",
+      "query_id": "0010",
+      "solutions": 53917,
+      "sha256": "c21e3f7d9dbdf1cbf06618dd8fd282e4f89db4cee0803ab5276828895fd8e19f",
+      "objective_minima": [
+        481958,
+        694961,
+        618
+      ]
+    },
+    {
+      "dataset": "NY",
+      "query_id": "0011",
+      "solutions": 53917,
+      "sha256": "72e7433fd7ffaeb83faaf622c50118cc2da5c62c45cc9ad79e6db44519f37bd8",
+      "objective_minima": [
+        482034,
+        695151,
+        619
+      ]
+    },
+    {
+      "dataset": "NY",
+      "query_id": "0012",
+      "solutions": 53917,
+      "sha256": "2aa689010e7243341c6e1265b1174c3f7ec2e7f846336f1aff757e13f300b106",
+      "objective_minima": [
+        479601,
+        689068,
+        617
+      ]
+    },
+    {
+      "dataset": "NY",
+      "query_id": "0013",
+      "solutions": 57526,
+      "sha256": "c66a3657d19b8cd58fde57e364c0aa5d57fc8aa56eac705329af4c802e497360",
+      "objective_minima": [
+        483305,
+        698330,
+        617
+      ]
+    },
+    {
+      "dataset": "NY",
+      "query_id": "0014",
+      "solutions": 57526,
+      "sha256": "0672e0b01e6adf8840690ae1f3e50dfedd67595e91f864878418cf674dcb4799",
+      "objective_minima": [
+        483381,
+        698520,
+        618
+      ]
+    },
+    {
+      "dataset": "NY",
+      "query_id": "0015",
+      "solutions": 57526,
+      "sha256": "eeacf490235c441f645c80a2f052e015c4ee6ee203c6bcf545efaf4bd9a25f7e",
+      "objective_minima": [
+        480948,
+        692437,
+        616
+      ]
+    },
+    {
+      "dataset": "NY",
+      "query_id": "0016",
+      "solutions": 53926,
+      "sha256": "523ca9dbcd0e1cdc2219adc673200ad87bb3b85589827495faa3058ee1376cb5",
+      "objective_minima": [
+        478940,
+        687418,
+        618
+      ]
+    },
+    {
+      "dataset": "NY",
+      "query_id": "0017",
+      "solutions": 54949,
+      "sha256": "2643880f0bd551a614608f8a2831d1b4a93c152b416630df55345631a782f583",
+      "objective_minima": [
+        481264,
+        693227,
+        619
+      ]
+    },
+    {
+      "dataset": "NY",
+      "query_id": "0018",
+      "solutions": 56768,
+      "sha256": "45634515ca0f77bba040a2946f4797bb56ad056f6fc2fc69b2ba80eb2250ade1",
+      "objective_minima": [
+        482327,
+        698104,
+        617
+      ]
+    },
+    {
+      "dataset": "NY",
+      "query_id": "0019",
+      "solutions": 53926,
+      "sha256": "6ee13899b3a401361333b1536c77c6b2c0173d7480ebbf645ed8d126b492ac49",
+      "objective_minima": [
+        481738,
+        694411,
+        621
+      ]
+    },
+    {
+      "dataset": "NY",
+      "query_id": "0020",
+      "solutions": 53926,
+      "sha256": "c66aa2ced29c8f477f0e4f4d29a46b0e9b215cfe7062fb4e16f3467849d42cf5",
+      "objective_minima": [
+        480904,
+        692326,
+        620
+      ]
+    },
+    {
+      "dataset": "NY",
+      "query_id": "0021",
+      "solutions": 53926,
+      "sha256": "7c11937353627970419e89924c8df9b1b4129a038461012e7bc9479d6cfa8e8d",
+      "objective_minima": [
+        477991,
+        685044,
+        616
+      ]
+    },
+    {
+      "dataset": "NY",
+      "query_id": "0022",
+      "solutions": 53926,
+      "sha256": "3e315119e195a9c99189c365bed7efcc29f68c5211d198fe6e4d76b2f36d4855",
+      "objective_minima": [
+        480016,
+        690107,
+        620
+      ]
+    },
+    {
+      "dataset": "NY",
+      "query_id": "0023",
+      "solutions": 53926,
+      "sha256": "4a6c274d24fb42cfe8ca29ee33c5a45ad13f1aaf5f4cfc7559dae32d314327ea",
+      "objective_minima": [
+        480156,
+        690457,
+        620
+      ]
+    },
+    {
+      "dataset": "NY",
+      "query_id": "0024",
+      "solutions": 53926,
+      "sha256": "1d0e5b84041335a940843b38be49f7333adf411a9230587ff20680f0ca36cf83",
+      "objective_minima": [
+        479322,
+        688372,
+        619
+      ]
+    },
+    {
+      "dataset": "NY",
+      "query_id": "0025",
+      "solutions": 53926,
+      "sha256": "f07bab0abb08590c3ab777186e2f7f715557e61d1f2dd888cbbe648dcac327d5",
+      "objective_minima": [
+        476409,
+        681090,
+        615
+      ]
+    },
+    {
+      "dataset": "NY",
+      "query_id": "0026",
+      "solutions": 53926,
+      "sha256": "edbdf14f813bc22701420e62c21b016050de21e221b551c5bd69077020fdcc0b",
+      "objective_minima": [
+        478434,
+        686153,
+        619
+      ]
+    },
+    {
+      "dataset": "NY",
+      "query_id": "0027",
+      "solutions": 54949,
+      "sha256": "dd479bb7edc2b1442dbc207794ea47e70bb597303eebb9201e9a3b235320ba78",
+      "objective_minima": [
+        482480,
+        696266,
+        621
+      ]
+    },
+    {
+      "dataset": "NY",
+      "query_id": "0028",
+      "solutions": 54949,
+      "sha256": "1b8bc484b9aa1fb4d261f34ad2b5d2c9e6f940011a1f86ee91008c32b6f7afa9",
+      "objective_minima": [
+        481646,
+        694181,
+        620
+      ]
+    },
+    {
+      "dataset": "NY",
+      "query_id": "0029",
+      "solutions": 54949,
+      "sha256": "0ac3f53fda47b091e4d608e922ce9198de156d347a3a28f2710212f1fa828729",
+      "objective_minima": [
+        478733,
+        686899,
+        616
+      ]
+    },
+    {
+      "dataset": "NY",
+      "query_id": "0030",
+      "solutions": 54949,
+      "sha256": "d015e18c209c41b94d7da85891952a4b82db0cef1a2053639728e86e851ed649",
+      "objective_minima": [
+        480758,
+        691962,
+        620
+      ]
+    }
+  ]
+}

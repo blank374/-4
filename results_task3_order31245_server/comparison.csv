@@ -1,0 +1,2 @@
+﻿dataset,query_id,objective_count,method,epsilon,status,certified,paths,reference_kind,reference_size,reference_configurations,empirical_epsilon,load_seconds,preprocess_seconds,search_seconds,total_seconds,peak_rss_mb,expanded,labels,merged,file
+COL,0017,5,apex_open_merge,0.2,epsilon_cover,True,44,unavailable_single_config,44,1,,0.932338792,1.358658136,14.04203275,16.40564997,1035,7567640,7574239,2853335,COL_0017_m5_e0.2_b660a071fa467830.json
