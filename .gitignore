@@ -1,1 +1,39 @@
+# Local archives and temporary experiments (kept on disk)
+/_local_archive/
+/tmp/
+
+# Generated answers, checkpoints and execution logs
+/results/
+/results_*/
+/result[1-4]_*.csv
+*.log
+*.pid
+*.tmp
+
+# Compiled binaries and Python caches
+/task2_exact
+*.exe
+*.o
+*.obj
+*.dll
+*.so
+*.a
+*.pdb
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+build/
+
+# Machine-specific settings and credentials
 .DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.env
+.env.*
+!.env.example
+.ssh/
+id_rsa
+id_ed25519
+*.pem
