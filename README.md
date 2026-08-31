@@ -1,6 +1,6 @@
 # 城市道路网络多目标路径规划
 
-任务一、二的正式求解与验证代码，以及任务三的精确/近似路径集求解、质量比较与验证。任务四尚未实现。
+任务一至四的求解与验证代码，包含精确/近似路径集、偏好推荐、封路重规划和实验分析。
 
 任务二已完整求解 NY、BAY、COL 各30组查询，共 **90组、3,023,770条 Pareto 目标向量记录**。正式求解器是 `task2_exact.cpp`；旧的 KD 树、双向搜索和分区实验不再作为运行入口。
 
@@ -18,11 +18,15 @@
 | `run_task3.py` / `run_task3_batch.sh` | 任务三固定查询实验、断点与汇总 |
 | `run_task3_optimized.sh` / `assemble_task3_certified.py` | 标签合并优化、未认证组换序重试、认证答案汇集 |
 | `verify_task3_solver.py` / `verify_task3_results.py` | 穷举验证、路径核验与质量比较 |
+| `task4_solver.cpp` / `task4_common.py` | 任务四固定偏好、候选选择、封路后的精确标量A* |
+| `run_task4.py` / `run_task4_batch.sh` | 四种方案、两种路网状态的全量运行与复现 |
+| `verify_task4_solver.py` / `verify_task4_results.py` | 小图穷举、逐边核验、独立双向Dijkstra最优值复核 |
+| `analyze_task4.py` | 偏好敏感性、封路损失与运行统计 |
 | `data/` | 原始图、合并边表、固定查询和关闭边表 |
 | `examples/` | 题目规定的四种结果格式示例 |
 | `docs/` | 模型说明、运行方法及验证记录 |
 
-生成结果放在 `results_task1/`、`results_task2_exact/` 或 `results_task3/`，不纳入 Git。旧方法、临时实验和含实际服务器信息的历史说明归档在本机 `_local_archive/`，同样不上传。
+生成结果放在 `results_task1/`、`results_task2_exact/`、`results_task3_certified/` 或 `results_task4/` 等目录，不纳入 Git。旧方法、临时实验和含实际服务器信息的历史说明归档在本机 `_local_archive/`，同样不上传。
 
 ## 环境
 
@@ -83,6 +87,22 @@ python verify_task3_results.py results_task3_apex_pilot
 Linux新版完整流程使用 `TASK3_WORKERS=16 bash run_task3_optimized.sh`。使用任务三专用固定查询表，输出所有五项成本和完整路径；触顶仍只返回未认证候选，汇集脚本只接受取得证书的结果。
 
 详见 [最新优化与复现说明](docs/task3_optimization.md)、[基线模型](docs/task3.md) 与 [初版实验记录](docs/task3_validation.md)。
+
+## 任务四
+
+已完成 **90组查询、四种偏好、封路前后共720行结果**，全部通过逐边核验和独立最优值检查。原始推荐从任务三候选选择；封路后在完整剩余路网求给定偏好的精确最优路径，不枚举完整五维Pareto集。
+
+```powershell
+.\build_task4.ps1
+python verify_task4_solver.py
+python run_task4.py --output-dir results_task4_reproduction --workers 4 --resume
+python verify_task4_results.py results_task4_reproduction --workers 4
+python analyze_task4.py results_task4_reproduction
+```
+
+Linux完整复现：`TASK4_WORKERS=16 TASK4_VERIFY_WORKERS=16 bash run_task4_batch.sh`。需要任务三的已认证结果。正式文件为 `results_task4/result4_研XXX.csv`，包含时间优先、平稳优先、均衡、单纯时间最短四种方案。
+
+模型、正确性与复现细节见 [任务四方法](docs/task4.md)，实测结果见 [任务四验证与分析](docs/task4_validation.md)。
 
 ## 任务二结果与验证
 
