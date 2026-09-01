@@ -111,3 +111,5 @@ Thumbs.db
 id_rsa
 id_ed25519
 *.pem
+q2_output/
+q3_output/

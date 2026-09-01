@@ -1,0 +1,6 @@
+dataset,query_id,source,target,objective,c1,c2,c3,c4,c5,path
+NY,example,1,2,distance,803,2008,1,6,1,1->2
+NY,example,1,2,travel_time,803,2008,1,6,1,1->2
+NY,example,1,2,elevation,803,2008,1,6,1,1->2
+NY,example,1,2,avg_degree,803,2008,1,6,1,1->2
+NY,example,1,2,hop_count,803,2008,1,6,1,1->2

@@ -1,0 +1,6 @@
+dataset,query_id,source,target,scheme,network_state,feasible,c1,c2,c3,c4,c5,path
+NY,example,1,2,time_priority,original,True,803,2008,1,6,1,1->2
+NY,example,1,2,stable_priority,original,True,803,2008,1,6,1,1->2
+NY,example,1,2,balanced,original,True,803,2008,1,6,1,1->2
+NY,example,1,2,replanning_time_shortest,disrupted,True,803,2008,1,6,1,1->2
+NY,example,1,2,replanning_custom,disrupted,False,,,,,,
