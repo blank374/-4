@@ -1,16 +1,18 @@
 # Fdb version 4
-["xdvipdfmx"] 1788233070.0787 "Sample.xdv" "Sample.pdf" "Sample" 1788233072.96908 0
-  "Sample.xdv" 1788233069 282272 b7de1003d04215f15ebbe2334aefd814 "xelatex"
+["xdvipdfmx"] 1788236656.25182 "Sample.xdv" "Sample.pdf" "Sample" 1788236661.17939 0
+  "Sample.xdv" 1788236655 294980 8fac60ee9b11a23775700fd76d268372 "xelatex"
   (generated)
   "Sample.pdf"
   (rewritten before read)
-["xelatex"] 1788233066.918 "Sample.tex" "Sample.xdv" "Sample" 1788233072.94429 0
+["xelatex"] 1788236653.0452 "Sample.tex" "Sample.xdv" "Sample" 1788236661.15198 0
   "../figures/q2_front_size_and_time.png" 1788232958 222063 91aa5bb84147cc631c0bbbbf20172d39 ""
   "../figures/q2_pareto_front_examples.png" 1788232958 659270 2cbfcd6113ec099221d5cbfcef8e64c7 ""
-  "Sample.aux" 1788233069 8974 b3448e70c5ac098707de6d94818c1ebc "xelatex"
-  "Sample.out" 1788233069 4460 8ca8a5e197f835f47945fb302f301093 "xelatex"
-  "Sample.tex" 1788233058 37716 4fcfd1119e33356e01e11b20ec6915a0 ""
-  "Sample.toc" 1788233069 3278 be42e0eb090b468319ec274bea0da1c8 "xelatex"
+  "../figures/q4_closure_and_tradeoff.png" 1788236647 274604 1218aef5f7bc81165685919e22af1245 ""
+  "../figures/q4_sensitivity_examples.png" 1788236648 175397 041dd73e67a068090f88a750f79f1e80 ""
+  "Sample.aux" 1788236655 9786 a893fd0085560ce46ef281a3f7a7f12c "xelatex"
+  "Sample.out" 1788236655 4460 8ca8a5e197f835f47945fb302f301093 "xelatex"
+  "Sample.tex" 1788236639 40160 360395dce7affac0c12824dad7059053 ""
+  "Sample.toc" 1788236655 3278 ce877b16ec81eab39666e9f6b179785b "xelatex"
   "c:/Windows/Fonts/msyh.ttc" 1739409102 19704352 1e10e74402e59d54499af795caf0b135 ""
   "f:/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1773915542 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "f:/texlive/2026/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1773917370 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""

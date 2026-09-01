@@ -411,6 +411,12 @@ INPUT ../figures/q2_pareto_front_examples.png
 INPUT ../figures/q2_front_size_and_time.png
 INPUT ../figures/q2_front_size_and_time.png
 INPUT ../figures/q2_front_size_and_time.png
+INPUT ../figures/q4_closure_and_tradeoff.png
+INPUT ../figures/q4_closure_and_tradeoff.png
+INPUT ../figures/q4_closure_and_tradeoff.png
+INPUT ../figures/q4_sensitivity_examples.png
+INPUT ../figures/q4_sensitivity_examples.png
+INPUT ../figures/q4_sensitivity_examples.png
 INPUT Sample.aux
 INPUT ./Sample.out
 INPUT ./Sample.out

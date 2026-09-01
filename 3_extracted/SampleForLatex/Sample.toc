@@ -28,11 +28,11 @@
 \contentsline {subsection}{\numberline {6.5}可达性与总体扰动影响}{12}{subsection.6.5}%
 \contentsline {subsection}{\numberline {6.6}偏好收益与成本}{12}{subsection.6.6}%
 \contentsline {subsection}{\numberline {6.7}权重敏感性与计算效率}{13}{subsection.6.7}%
-\contentsline {section}{\numberline {七、}模型检验、优缺点与推广}{13}{section.7}%
-\contentsline {subsection}{\numberline {7.1}正确性与独立复核}{13}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}模型优点}{13}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}局限性与改进方向}{13}{subsection.7.3}%
-\contentsline {section}{\numberline {八、}结论}{14}{section.8}%
-\contentsline {section}{AI 工具使用说明}{14}{section.8}%
-\contentsline {section}{九、参考文献}{14}{section.8}%
-\contentsline {section}{附录：核心算法伪代码}{16}{section.8}%
+\contentsline {section}{\numberline {七、}模型检验、优缺点与推广}{14}{section.7}%
+\contentsline {subsection}{\numberline {7.1}正确性与独立复核}{14}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}模型优点}{14}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}局限性与改进方向}{15}{subsection.7.3}%
+\contentsline {section}{\numberline {八、}结论}{15}{section.8}%
+\contentsline {section}{AI 工具使用说明}{15}{section.8}%
+\contentsline {section}{九、参考文献}{15}{section.8}%
+\contentsline {section}{附录：核心算法伪代码}{17}{section.8}%
